@@ -1,0 +1,6 @@
+G28 ;Home
+G1 Z15.0 F6000 ;Mova a plataforma para cima 15mm
+;Preparar a extrusora
+G92 E0
+G1 F200 E3
+G92 E0 ; Redefinir extrusora
